@@ -96,6 +96,45 @@
 #     if len(mylist)==0:
 #         return []
 #     else:
-#         return [mylist[1]*mylist[0]]+shifrav(mylist[2:])
-# print(shifrav( ["A", 12, "B", 4, "A", 6, "B", 1]))  
-#       
+#         return list(mylist[1]*mylist[0])+shifrav(mylist[2:])
+# print(shifrav( ["A", 12, "B", 4, "A", 6, "B", 1])) 
+# -------------------------------------------------------------------------------------------------------- 
+# mylist=[1,2,3,4,5,7,8,88]
+# n=3
+# for i in range(n):
+#     mylist.insert(0,mylist[-1])
+#     mylist.pop(-1)
+# print(mylist)    
+# -------------------------------------------------------------------------------------------------------- 
+# def func(mylist,n):
+#     if n==0:
+#         return mylist
+#     else:
+#         mylist.insert(0,mylist[-1])
+#         mylist.pop(-1)
+#         return func(mylist,n-1)
+# mylist=[1,2,3,4,5,6,7,8]
+# n=3
+# print(func(mylist,n))   
+# -------------------------------------------------------------------------------------------------------- 
+# def func(mylist,newlist=[]):
+#     if len(mylist)==0:
+#         return newlist
+#     else:
+#         return
+
+
+
+
+
+# mylist=[1,2,3,4,5]
+# def deep_count(a):
+#     count=0
+#     for i in a:
+#         if type(i)==list:
+#             count += deep_count(i)
+#         else:
+#             count +=1
+#     return count+1
+# print(deep_count(["x", "y", ["z"]]))
+        
