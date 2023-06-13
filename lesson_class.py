@@ -37,7 +37,34 @@
 # x=Kgtopunds()
 # x.set_kg(50)
 # print(x.get_kg())      
-# ----------------------------------------(OOP.Part2)(1)-------------------------------------------    
+# ----------------------------------------(OOP.Lesson 34)(1)-------------------------------------------    
+# class bazm:
+#     def __init__(self,numbers) -> None:
+#         self.numbers=numbers
+#     def  arj(self):
+#         if len(self.numbers)<2:
+#             return None  
+        
+#     def amenamec(self):
+#         max_arj=0
+#         max_arj
+# --------------------------------------------------------(2)--------------------------------------------------------
+# class erk:
+
+
+#     def __init__(self,mylist) -> None:
+#         self.mylist=mylist
+
+
+#     def max_len(self):
+#         self.mylist.sort(key=len,reverse=True)
+#         max_arj=len(self.mylist[0])
+#         return [i for i in self.mylist if len(i)==max_arj]
+
+       
+# obj=erk(["aba", "aa", "ad", "vcd", "aba"]) 
+# print(obj.max_len())    
+
 
 
 
